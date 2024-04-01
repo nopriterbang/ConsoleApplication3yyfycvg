@@ -19,5 +19,9 @@ int main() {
     cout << "Umur mahasiwa : ";
     cin >> mhs.umur;
 
-
+    cout << endl;
+    cout << "\n Nama : " << mhs.nim;
+    cout << "\n Nama : " << mhs.nama;
+    cout << "\n Alamat : " << mhs.alamt;
+    cout << "\n Umur : " << mhs.umur;
 }
