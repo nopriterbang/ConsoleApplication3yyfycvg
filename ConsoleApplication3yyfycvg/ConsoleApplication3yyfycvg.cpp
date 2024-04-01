@@ -1,1 +1,2 @@
-#include <iostream>
+#include <iostreamusing>
+using namespace std;
