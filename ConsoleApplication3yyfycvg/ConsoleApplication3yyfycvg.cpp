@@ -35,8 +35,6 @@ int main() {
 // using namespace std;
 
 struct DetailAlamat {
-    string nim;
-    string nama;
-    string alamat;
-    int umur;
+    string desa;
+    string kota;
 };
