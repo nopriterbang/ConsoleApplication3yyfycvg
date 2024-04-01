@@ -12,4 +12,12 @@ int main() {
     Mahasiswa mhs;
     cout << "Nomer mahasiswa: ";
     cin >> mhs.nim;
+    cout << "Nama mahasiswa : ";
+    cin >> mhs.nama;
+    cout << "Alamat Mahasiswa : ";
+    cin >> mhs.alamat;
+    cout << "Umur mahasiwa : ";
+    cin >> mhs.umur;
+
+
 }
