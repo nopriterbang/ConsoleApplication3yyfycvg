@@ -75,3 +75,9 @@ int main() {
 #include <iostream>
 using namespace std
 
+struct Mahasiswa {
+    string nim;
+    char nama[25];
+    DetailAlamat alamat;
+    int umur;
+};
