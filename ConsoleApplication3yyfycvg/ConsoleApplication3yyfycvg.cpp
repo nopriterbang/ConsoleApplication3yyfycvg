@@ -1,3 +1,5 @@
+// struktur 1
+
 #include <iostreamusing>
 using namespace std;
 
@@ -27,3 +29,7 @@ int main() {
 }
 // project digabung karena vscode saya mengalami error mas 
 
+//Struktur 2
+
+// #include <iostream>
+// using namespace std;
