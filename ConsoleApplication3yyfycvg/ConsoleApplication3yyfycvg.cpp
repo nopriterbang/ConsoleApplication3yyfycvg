@@ -1,9 +1,9 @@
 #include <iostreamusing>
 using namespace std;
 
-string mMhasiswa{
-	string nim;
+struct Mahasiswa{
+    string nim;
     string nama;
     string alamat;
     string umur;
-}
+};
