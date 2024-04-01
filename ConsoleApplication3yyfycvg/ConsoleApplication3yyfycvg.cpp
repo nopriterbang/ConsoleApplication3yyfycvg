@@ -108,6 +108,14 @@ int main() {
 using namespace std;
 
 struct DetailAlamat {
-
+    string desa;
+    string kota;
 };
  
+struct Mahasiswa {
+    string nim;
+    string nama;
+    DetailAlmaat alamat;
+    int umur;
+
+};
