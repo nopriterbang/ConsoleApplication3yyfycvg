@@ -31,8 +31,8 @@ int main() {
 
 //Struktur 2
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
 struct DetailAlamat {
     string desa;
@@ -70,4 +70,8 @@ int main() {
     cout << "\n \t Kota" << mhs.alamat.kota;
     cout << "\n Umur : " << mhs.umur;
 }
+// struktur 3
+
+#include <iostream>
+using namespace std
 
