@@ -101,3 +101,5 @@ int main() {
     cout << "\n Nim :" << mhs.nim;
     
 }
+
+// struktur 4
