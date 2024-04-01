@@ -25,3 +25,4 @@ int main() {
     cout << "\n Alamat : " << mhs.alamt;
     cout << "\n Umur : " << mhs.umur;
 }
+// project digabung karena vscode saya mengalami error mas
