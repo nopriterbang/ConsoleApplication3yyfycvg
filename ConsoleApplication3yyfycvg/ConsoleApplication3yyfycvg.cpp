@@ -126,24 +126,29 @@ int main() {
     
      for (int i=0;i<3;i++)
      cout << "Nomer Mahasiswa"
-     getline(cin, mhs.nim);
+     getline(cin, mhs[i].nim);
      cout << "Nama Mahasiswa : ";
-     getline(cin, mhs.nama)
+     getline(cin, mhs[i].nama)
 
      cout << "Alamat mahasiswa : " << endl;
      cout << "\t Nama Desa : ";
-     cin >> mhs.alamat.desa;
+     cin >> mhs[i].alamat.desa;
      cout << "\t Nama Kota : ";
-     cin >> mhs.alamat.kota;
+     cin >> mhs[i].alamat.kota;
+     cout << "Umur Mahasiswa : ";
+     cin >> mhs[i].umur;
+     cin.ignore(1, '\n');
+     cout << endl;
     }
     for (int i=0:i<3;3,i++)
     cout << endl;
-    cout << "\n Nim" << mhs.nim;
-    cout << "\n Nama" << mhs.nama;
+    cout << "Data mahasiswa ke-" << (i+1) <<":" << endl
+    cout << "\n Nim" << mhs[i].nim;
+    cout << "\n Nama" << mhs[i].nama;
     cout << "\n Alamat : ";
-    cout << "\n \t Desa : " << mhs.alamat.desa;
-    cout << "\n \t Kota :" << mhs.alamat.kota;
-    cout << "\n Umur : " << mhs.umur;
+    cout << "\n \t Desa : " << mhs[i].alamat.desa;
+    cout << "\n \t Kota :" << mhs[i].alamat.kota;
+    cout << "\n Umur : " << mhs[i].umur;
 
 
 }
