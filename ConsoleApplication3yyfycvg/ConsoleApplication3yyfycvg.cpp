@@ -77,7 +77,7 @@ using namespace std
 
 struct Mahasiswa {
     string nim;
-    char nama[25];
+    string nama[25];
     DetailAlamat alamat;
     int umur;
 };
@@ -86,5 +86,14 @@ int main() {
     Mahasiswa mhs;
     cout << "Nomer Mhasiswa : ";
     cin >> mhs.nim;
-    cout 
+    cout << "Nama Mahasiswa : ";
+    getline(cin, mhs.nama);
+
+    cout << "Alamat Mahasiswa : " << endl;
+    cout << "\t Nama Desa : ";
+    cin >> mhs.alamat.desa;
+    cout << "\t Nama Kota : ";
+    cin >> mhs.alamat.kota;
+
+    
 }
