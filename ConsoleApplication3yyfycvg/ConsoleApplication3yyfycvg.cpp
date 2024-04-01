@@ -81,3 +81,10 @@ struct Mahasiswa {
     DetailAlamat alamat;
     int umur;
 };
+
+int main() {
+    Mahasiswa mhs;
+    cout << "Nomer Mhasiswa : ";
+    cin >> mhs.nim;
+    cout 
+}
